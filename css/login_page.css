@@ -1,0 +1,204 @@
+
+body{
+    position: relative;
+width: 1440px;
+height: 1024px;
+margin:0px;
+
+background: linear-gradient(180deg, #EAA7F5 0%, rgba(220, 144, 233, 0.401042) 59.9%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, #DBCAEC 0%, rgba(194, 154, 234, 0) 100%), #514EDB;
+background-blend-mode: normal, normal, darken;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div#round_rect
+{
+    /* Rectangle 2 */
+
+position: absolute;
+width: 1248px;
+height: 824px;
+left: 93px;
+top: 95px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+div#rect
+{
+    /* Group 1 */
+    position: absolute;
+    width: 914px;
+    height: 659px;
+    left: -27px;
+    top: -17px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div#img-01
+{
+    /* img-01 1 */
+
+position: absolute;
+left: 12.85%;
+right: 61.29%;
+top: 35.66%;
+bottom: 28.3%;
+
+background: url(img-01.png);
+}
+
+div#forget-password
+{
+    /* Forgot password? */
+
+position: absolute;
+left: 63.5%;
+right: 15.63%;
+top: 90.52%;
+bottom: 3.37%;
+
+font-family: Microsoft PhagsPa;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+text-align: center;
+
+color: #000000;
+
+}
+
+div#dont-have-account
+{
+    /* Don’t have an account? Create one */
+
+position: absolute;
+left: 14.65%;
+right: 63.18%;
+top: 81.17%;
+bottom: 10.35%;
+
+font-family: Microsoft PhagsPa;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+text-align: center;
+
+color: #000000;
+
+}
+/*
+div#signin-button-text
+{
+/* Sign In *//*
+
+position: absolute;
+left: 64.16%;
+right: 16.94%;
+top: 77.81%;
+bottom: 15.59%;
+
+font-family: Segoe UI Emoji;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}*/
+
+button#signin
+{
+    /* Rectangle 5 */
+    /*                        try integrating with signin text         */
+
+position: absolute;
+left: 62.77%;
+right: 15.63%;
+top: 76.18%;
+bottom: 13.97%;
+
+background: #05F800;
+border-radius: 25px;
+
+/* Sign In text*/
+/*
+position: absolute;
+left: 64.16%;
+right: 16.94%;
+top: 77.81%;
+bottom: 15.59%;
+*/
+font-family: Segoe UI Emoji;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 39px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+p#login-text
+{
+    /* Login */
+    position: absolute;
+    left: 48.08%;
+    right: 22.44%;
+    top: 7.18%;
+    bottom: 64.34%;
+    font-size: 64px;
+    line-height: 82px;
+    text-align: center;
+    color: #000000;
+font-family: Microsoft PhagsPa;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 82px;
+text-align: center;
+
+color: #000000;
+
+}
+
+input#loginpass
+{
+    /* Rectangle 4 */
+
+position: absolute;
+left: 53.36%;
+right: 8.02%;
+top: 57.73%;
+bottom: 30.92%;
+
+background: #DBDBDB;
+border-radius: 20px;
+}
+
+input#loginuser
+{
+    /* Rectangle 3 */
+
+    position: absolute;
+    left: 56.36%;
+    right: 9.02%;
+    top: 32.02%;
+    bottom: 59.63%;
+    background: #DBDBDB;
+    border-radius: 20px;
+}

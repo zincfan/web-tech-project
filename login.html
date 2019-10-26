@@ -1,0 +1,56 @@
+<html>
+<head><title>Login</title></head>
+<link rel="stylesheet" type="text/css" href="css/login_page2.css" />
+<body>
+        <script>
+                function funcpass()
+                {
+                 var pas=document.getElementById("loginpass").value;
+                 var usr=document.getElementById("loginuser").value;
+                 
+                 if(pas=="")
+                 {
+                   alert("write password");
+                   event.preventDefault();
+                   return False;
+                 }
+                 else
+                 {
+                   ;
+                 }
+                 if(usr=="")
+                 {
+                    alert("write username");
+                    event.preventDefault();
+                    return False;
+                 }
+                 else
+                 {
+                   return True;
+                 }
+                 }
+                
+        </script>
+
+    <div>
+        
+            <div id="rect">
+                
+                    <div name="logtext">
+                        <p id="login-text">Login</p>
+                    </div>
+                    <form name="login" id="login" onsubmit="funcpass()" action="#">
+                        <div id="username_field">
+                            <input type="text" id="loginuser" placeholder="Username" required="required"  name="username">
+                        </div>
+                        <div id="password_field">
+                            <input type="password" id="loginpass" name="password" placeholder="Password" required="required"  pattern="(?=.*\W)(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,64}" title="Must contain 8 characters with atleast one special symbol,one number and one uppercase letter">
+                        </div>
+                        <div id="submit_button">
+                            <button id="signin" class="btn-block btn-primary" type="submit" name="Submit">Submit</button>
+                        </div>
+                    </form>
+                
+            </div>
+        
+    </div>
