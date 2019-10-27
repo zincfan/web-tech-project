@@ -129,7 +129,6 @@ button#signin
     background: #12e00e;
     border-radius: 25px;
     height:8%;
-    padding-left:13%;
 
 /* Sign In text*/
     /*
@@ -150,10 +149,13 @@ bottom: 15.59%;
     color: #000000;
     width: 36%;
     border-style: none;
+    padding-left: 13%;
 }
 button#signin:hover
 {
-    background-color: rgba(51, 24, 24, 0.849);
+    background-color: rgba(27, 8, 8, 0.849);
+    color:whitesmoke;
+    transition-delay: 0.1s;
 }
 
 p#login-text
@@ -177,7 +179,7 @@ p#login-text
     color: #000000;
 }
 
-input#loginpass
+input.password-confirm
 {
     /* Rectangle 4 */
     position: absolute;
@@ -194,16 +196,16 @@ input#loginpass
     font-size: 15px;
     
 }
-input#loginpass:focus::placeholder
+input.password-confirm:focus::placeholder
 {
     color: transparent;
     font-size: 19px;
 }
-input#loginpass:focus
+input.password-confirm:focus
 {
     outline: none;
 }
-input#loginpass:active{
+input.password-confirm:active{
     transition: none;
 }
 
@@ -229,4 +231,13 @@ input#loginuser:focus::placeholder
 }
 input#loginuser:focus{
     outline: none;
+}
+div#show-password-checkbox
+{
+    position: absolute;
+    left: 49.36%;
+    right: 9.02%;
+    top: 66.02%;
+    bottom: 49.63%;
+    padding: 2%;
 }
