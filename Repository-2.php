@@ -45,7 +45,7 @@ $username=$_SESSION['username'];
                     </div>
             <!--<a id="bar-what-is-this" href="#">What is this?</a>
             <i id="profile-icon"></i>-->
-                     <button type="button" id="bar-sign-out" class="btn btn-outline-primary" onclick="window.location.href = 'index.html';">SIGN OUT</button>
+                     <button type="button" id="bar-sign-out" class="btn btn-outline-primary" onclick="window.location.href = 'signout.php';">SIGN OUT</button>
             </div>
         </nav></header>
         <nav class="navbar navbar-light bg-light">
