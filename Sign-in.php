@@ -11,13 +11,19 @@ if (!$conn) {
 
 $username = $_POST['username'];
 $password= $_POST['password'];
-$password = "qwerty";
+
 
 $sql = "INSERT INTO DB (username,password)
 VALUES ('$username','$password')";
 
 if (mysqli_query($conn, $sql)) {
     echo "Created successfully";
+    
+$sql="CREATE TABLE $username (curr_proj VARCHAR(100), ratings VARCHAR(2),contributors varchar(1000))";
+mysqli_query($conn, $sql);
+
+
+    
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
