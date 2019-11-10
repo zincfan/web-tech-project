@@ -1,0 +1,71 @@
+<html>
+<head><title>Sign In</title></head>
+<link rel="stylesheet" type="text/css" href="css/login_page2.css" />
+<body>
+        <script>
+                function funcpass()
+                {
+                 var pas=document.getElementById("loginpass").value;
+                 var usr=document.getElementById("loginuser").value;
+                 var pasc=document.getElementById("loginpassconfirm").value;
+                 if(pasc!=pas)
+                 {
+                     alert("Rentered password and password doesnot match");
+                     event.preventDefault();
+                     return False;
+                 }
+                 if(pas=="")
+                 {
+                   alert("write password");
+                   event.preventDefault();
+                   return False;
+                 }
+                 else
+                 {
+                   ;
+                 }
+                 if(usr=="")
+                 {
+                    alert("write username");
+                    event.preventDefault();
+                    return False;
+                 }
+                 else
+                 {
+                   return True;
+                 }
+                 }
+                
+        </script>
+
+    <div>
+        
+            <div id="rect">
+                
+                    <div name="logtext">
+                        <p id="login-text">Login</p>
+                    </div>
+                    <form name="login" id="login" onsubmit="funcpass()" method="post" action="Sign-in.php">
+                        <div id="username_field">
+                            <input type="text" id="loginuser" placeholder="Username" required="required"  name="username" style="top:39.73%;">
+                        </div>
+                        <div id="password_field">
+                            <input type="password" class="password-confirm" id="loginpass" name="password" placeholder="Password" required="required" style="top:49.73%;" pattern="(?=.*\W)(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,64}" title="Must contain 8 characters with atleast one special symbol,one number and one uppercase letter">
+                        </div>
+                        <div id="confirm-password">
+                            <input type="password" class="password-confirm" id="loginpassconfirm" name="confirm-password" placeholder="Confirm password" required="required" style="top:59.73%;" title="Re-enter the same password as given above">
+                        </div>
+                        <div class="form-check" id="show-password-checkbox">
+                            <input class="form-check-input" type="checkbox" value="1" id="show-password">
+                            <label class="form-check-label" for="show-password">
+                              Show Password
+                            </label>
+                        </div>
+                        <div id="submit_button">
+                            <button id="signin" class="btn-block btn-primary" type="submit" name="Submit" style="top:73.78%;">Submit</button>
+                        </div>
+                    </form>
+                
+            </div>
+        
+    </div>
