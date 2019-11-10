@@ -1,0 +1,263 @@
+body
+{
+/* Desktop - 1 */
+
+position: relative;
+width: 1519px;
+height: 2177px;
+
+background: #FFFFFF;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+}
+header.header
+{
+    /* Rectangle 1 */
+
+position: absolute;
+width: 1519.2px;
+height: 73.6px;
+left: 0px;
+top: 0px;
+
+background: #004691;
+box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+img#home-logo
+{
+position: absolute;
+width: 105px;
+height: 48px;
+left: 177px;
+top: 13px;
+
+background: url(Homepage-logo.png);
+}
+
+ul#primary_menu
+{
+/* Rectangle 2 */
+
+position: absolute;
+width: 920px;
+height: 37.6px;
+left: 311px;
+top: 18px;
+
+background: #004691;
+}
+a#navbar-home
+{
+display: inline-block;
+color:#fff;
+position: relative;
+padding: 5px 16px;
+margin: 0 3px;
+border: 1px solid transparent;
+background-color: transparent;
+
+}
+a#navbar-network
+{
+display: inline-block;
+color:#fff;
+position: relative;
+padding: 5px 16px;
+margin: 0 3px;
+border: 1px solid transparent;
+background-color: transparent;
+text-decoration: none;
+}
+a#navbar-repository
+{
+display: inline-block;
+color:#fff;
+position: relative;
+padding: 5px 16px;
+margin: 0 3px;
+border: 1px solid transparent;
+background-color: transparent;
+text-decoration: none;
+}
+
+
+div#home-area
+{
+/* Rectangle 4 */
+
+position: absolute;
+width: 1519px;
+height: 682.8px;
+left: 0px;
+top: 77px;
+padding-top: 170px;
+
+background: transparent;
+}
+div#home-info-area
+{
+    
+position: absolute;
+width: 635px;
+height: 543px;
+left: 177px;
+top: 140px;
+color: #fff;
+padding: 80px 0 170px;
+
+background: transparent;
+}
+h1#home-info
+{
+    font-size: 48px;
+    font-weight: 500;
+}
+p1#content-area
+{
+    margin: 28px 0 25px;
+}
+div#right-image-area
+{
+    position: absolute;
+    width: 445px;
+    height: 543px;
+    left: 812px;
+    top: 183px;
+    
+    background: transparent;
+}
+div#about-area
+{
+position: absolute;
+width: 1519px;
+height: 592px;
+left: 0px;
+top: 760px;
+padding: 90px 0;
+text-align: center;
+
+background: rgb(255, 255, 255);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+div#about-area-head
+{
+position: absolute;
+width: 1140px;
+height: 164px;
+left: 190px;
+top: 74px;
+
+background: rgb(255, 255, 255);
+}
+div#feature-one-box
+{
+    position: absolute;
+width: 350px;
+height: 306.4px;
+left: 246px;
+top: 1016px;
+
+background: rgb(255, 255, 255);
+}
+div#feature-two-box
+{
+    position: absolute;
+width: 350px;
+height: 306.4px;
+left: 593px;
+top: 1016px;
+
+background: rgb(255, 255, 255);
+}
+div#feature-three-box
+{
+    position: absolute;
+width: 350px;
+height: 306.4px;
+left: 943px;
+top: 1016px;
+
+background: rgb(255, 255, 255);
+}
+.card-img-top
+{
+    width: 41%;
+}
+div#statistics-area
+{
+position: absolute;
+height: 430px;
+left: 158px;
+top: 1352px;
+
+background: transparent;
+}
+div.col-md-3.col-sm-6.single-counter-box
+{
+    width:285px;
+    height:295px;
+    text-align: center;
+    background: transparent;
+    border: aliceblue;
+    padding-top: 38px;
+    padding-bottom: 18px;
+}
+img.icofont
+{
+    width:120;
+    height:137;
+}
+/*
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+	transition: all 0.4s;
+    width: 100%;
+    z-index: 99;
+	padding: 18px 0;
+}
+.mainmenu {
+    text-align: right;
+}
+.mainmenu li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+.mainmenu li a {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    padding: 5px 16px;
+	margin: 0 3px;
+    border: 1px solid transparent;
+}
+.slicknav_menu {
+	padding: 0;
+    background: transparent;
+}
+.slicknav_menu a.active,
+.mainmenu ul li a:hover,
+.mainmenu ul li a.active {
+    border: 1px solid #fff;
+}
+.mainmenu {
+    display: block;
+}
+.slicknav_menu {
+	display: none;
+}
+.header.sticky {
+	border-bottom: 1px solid #fff;
+	background: #000529; /* Old browsers *//*
+	background: -moz-linear-gradient(left, #000529 1%, #002055 24%, #005db5 67%, #0074d9 100%); /* FF3.6-15 *//*
+	background: -webkit-linear-gradient(left, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%); /* Chrome10-25,Safari5.1-6 *//*
+	background: linear-gradient(to right, #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
+}
+.header.sticky {
+	padding: 10px 0;
+}
+.mainmenu li a.appao-btn {
+	margin-left: 55px;
+}
+*/
