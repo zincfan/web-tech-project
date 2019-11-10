@@ -1,0 +1,59 @@
+body
+{
+background-image:url("usr_networks.jpg");
+background-repeat: no-repeat;
+background-size:1900px 1000px;
+}
+
+p#update_profile_pic
+{
+position: relative;
+top:50;
+left:50;
+width: 170px;
+
+}
+
+button#update_button
+{
+width:175px;
+}
+
+form#usr_data
+{
+position: relative;
+top:-100;
+left:550;
+
+}
+
+div#p_data
+{
+color: yellow;
+position: relative;
+top:150;
+left:-500;
+}
+
+h1#pd
+{
+color: red;
+}
+
+input#submit_button
+{
+position:relative;
+left:250;
+top:-200;
+height: 30;
+width:100;
+color: green
+}
+
+div#part
+{
+position:relative;
+left:500;
+top:-50;
+}
+
