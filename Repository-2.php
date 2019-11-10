@@ -7,6 +7,8 @@ if(isset($_POST['but_logout'])){
     session_destroy();
     header('Location: index.php');
 }
+$username=$_SESSION['username'];
+
 ?>
 <!-- saved from url=(0037)http://127.0.0.1:5500/repository.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Repository</title><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -62,7 +64,7 @@ if(isset($_POST['but_logout'])){
           
         <div name="left-profile">
             <i id="user-profile-image"></i>
-            <span id="profile-name">username n new on</span>
+            <span id="profile-name">USERNAME: <?php  echo "$username";?></span>
             <span id="programmer-student">Programmer/student/en</span>
             <span id="location">Location</span>
             <i id="placeholder-for-map"></i>
