@@ -2,7 +2,7 @@ body{
     /* Desktop - 1 */
 
 position: relative;
-width: 1440px;
+width: 1520px;
 height: 1160px;
 margin: 0px;
 
@@ -339,24 +339,12 @@ background: linear-gradient(179.68deg, #6CDEA7 1.18%, rgba(125, 226, 175, 0.9035
 border-radius: 6px;
 }
 
-span#bar-sign-out
+button#bar-sign-out
 {
 /* Sign Out */
     position: absolute;
-    width: 145px;
-    height: 27px;
-    left: 1216px;
-    top: 37px;
-    text-decoration: none;
-    font-family: Tajawal;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
+    left: 1256px;
+    
 }
 
 a#bar-what-is-this
@@ -416,16 +404,14 @@ color: #FFFFFF;
 
 }
 
-i#bubbles-homepage
+img#bubbles-homepage
 {
 /* bubbles-homepage-icon 1 */
 
 position: absolute;
 width: 65px;
 height: 64px;
-left: 53px;
-top: 12px;
-background: url(bubbles-homepage-icon.png);
+
 border-radius: 5px;
 }
 
@@ -435,9 +421,7 @@ div#top-bar
 
 position: absolute;
 width: 1500px;
-height: 91px;
-left: 0px;
-top: 0px;
+height: 5%;
 background: #332929;
 }
 header#mainNav
