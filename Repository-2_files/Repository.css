@@ -1,0 +1,431 @@
+body{
+    /* Desktop - 1 */
+
+position: relative;
+width: 1520px;
+height: 1160px;
+margin: 0px;
+
+background: #FFFFFF;
+}
+div.repository-list
+{
+/* Repostory list */
+
+position: absolute;
+width: 907px;
+height: 473px;
+left: 397px;
+top: 647px;
+
+background: #C4C4C4;
+border-radius: 3px;
+}
+
+a#followers
+{
+/* Followers */
+
+position: absolute;
+width: 147px;
+height: 49px;
+left: 904px;
+top: 550px;
+
+text-decoration: none;
+font-family: Palanquin;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 34px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+a#report-user
+{
+    /* Report user */
+
+position: absolute;
+width: 106px;
+height: 27px;
+left: 118px;
+top: 1053px;
+
+text-decoration: none;
+font-family: Palanquin;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 34px;
+display: flex;
+align-items: center;
+
+color: #625D5D;
+
+}
+
+i#email
+{
+/* envelope 1 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 121px;
+top: 999px;
+
+background: url(envelope.png);
+}
+
+span#email
+{
+/* Gmailuser@gmail.com */
+
+position: absolute;
+width: 187px;
+height: 38px;
+left: 154px;
+top: 992px;
+
+font-family: Palanquin;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 34px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+a#rating
+{
+/* Rating */
+
+position: absolute;
+width: 149px;
+height: 50px;
+left: 766px;
+top: 549px;
+
+text-decoration: none;
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+a#current-project
+{
+/* Current Projects */
+
+position: absolute;
+width: 170px;
+height: 50px;
+left: 578px;
+top: 549px;
+
+text-decoration: none;
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+a#repositories
+{
+/* Repositories */
+
+position: absolute;
+width: 169px;
+height: 50px;
+left: 423px;
+top: 549px;
+
+text-decoration: none;
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+div#overview-of-repo
+{
+/* overview of repo */
+
+position: absolute;
+width: 910px;
+height: 0px;
+left: 394px;
+top: 609px;
+
+border: 2px solid #000000;
+}
+
+i#placeholder-for-map
+{
+/* placeholder-for-map 1 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 121px;
+top: 950px;
+
+background: url(placeholder-for-map.png);
+}
+
+span#location
+{
+/* Location */
+
+position: absolute;
+width: 167px;
+height: 37px;
+left: 154px;
+top: 943px;
+
+font-family: Palanquin;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 34px;
+display: flex;
+align-items: center;
+
+color: #000000;
+
+}
+
+span#programmer-student
+{
+/* Programmer/Student/en */
+
+position: absolute;
+width: 218px;
+height: 53px;
+left: 103px;
+top: 881px;
+
+font-family: Palanquin;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 34px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+span#profile-name
+{
+/* username n new on */
+
+position: absolute;
+width: 203px;
+height: 63px;
+left: 97px;
+top: 806px;
+
+font-family: Souliyo Unicode;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 31px;
+text-align: center;
+
+color: #000000;
+
+}
+
+p#repo-intro
+{
+
+    position: absolute;
+    width: 1231px;
+    height: 153px;
+    left: 26px;
+    top: 100px;
+    
+    font-family: Sitara;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+}
+
+span#repo-intro-head
+{
+/* What more from Repo */
+
+position: absolute;
+width: 371px;
+height: 81px;
+left: 460px;
+top: 23px;
+
+font-family: Shanti;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 46px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+i#user-profile-image
+{
+/* user_1 profile img */
+
+position: absolute;
+width: 225px;
+height: 224px;
+left: 88px;
+top: 546px;
+
+background: url(user_1.png);
+border-radius: 13px;
+}
+
+div#intro
+{
+/* Intro text */
+
+position: absolute;
+width: 1257px;
+height: 278px;
+left: 88px;
+top: 169px;
+
+background: linear-gradient(179.68deg, #6CDEA7 1.18%, rgba(125, 226, 175, 0.903578) 9.81%, rgba(134, 228, 179, 0.852641) 14.37%, rgba(137, 228, 180, 0.83342) 14.38%, rgba(147, 231, 185, 0.775758) 19.46%, rgba(152, 232, 187, 0.751515) 22%, rgba(165, 235, 193, 0.672727) 29.1%, rgba(166, 235, 194, 0.666667) 29.11%, rgba(167, 235, 194, 0.665365) 31.14%, rgba(168, 235, 194, 0.658203) 33.17%, rgba(169, 235, 195, 0.652832) 35.19%, rgba(169, 236, 195, 0.651042) 35.2%, rgba(171, 236, 196, 0.640625) 35.21%, rgba(176, 237, 198, 0.61073) 43.31%, rgba(177, 237, 198, 0.608773) 43.32%, rgba(184, 239, 201, 0.567708) 43.33%, rgba(176, 237, 198, 0.612534) 46.87%, rgba(190, 240, 204, 0.53125) 46.88%, rgba(190, 240, 204, 0.53125) 49.41%, rgba(186, 247, 193, 0.505208) 49.42%, rgba(186, 247, 193, 0.505208) 49.43%, rgba(184, 252, 185, 0.484375) 51.45%, rgba(204, 249, 194, 0.447917) 51.46%, rgba(223, 246, 204, 0.411759) 57.04%, rgba(225, 246, 204, 0.408466) 57.05%, rgba(238, 245, 210, 0.385417) 61.1%, rgba(239, 247, 205, 0.380208) 61.11%, rgba(245, 255, 184, 0.359375) 63.64%, rgba(232, 239, 191, 0.354167) 63.65%, rgba(245, 255, 187, 0.322917) 67.2%, rgba(246, 255, 190, 0.286458) 70.75%, rgba(246, 255, 194, 0.244792) 74.82%, rgba(247, 255, 199, 0.188701) 80.28%, rgba(250, 255, 216, 0.130208) 85.99%, rgba(252, 255, 230, 0.0833333) 90.56%, rgba(255, 255, 255, 0) 98.68%);
+border-radius: 6px;
+}
+
+button#bar-sign-out
+{
+/* Sign Out */
+    position: absolute;
+    left: 1256px;
+    
+}
+
+a#bar-what-is-this
+{
+/* What is this? */
+
+position: absolute;
+width: 163px;
+height: 60px;
+left: 316px;
+top: 27px;
+text-decoration: none;
+font-family: Shanti;
+font-style: normal;
+font-weight: normal;
+font-size: 27px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+i#profile-icon
+{
+/* profile_top icon */
+
+position: absolute;
+width: 70px;
+height: 68px;
+left: 1347px;
+top: 12px;
+
+background: #F01919;
+border-radius: 20px;
+}
+
+span#repo-home
+{
+/* Repo */
+
+position: absolute;
+width: 159px;
+height: 58px;
+left: 160px;
+top: 15px;
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 38px;
+line-height: 64px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+img#bubbles-homepage
+{
+/* bubbles-homepage-icon 1 */
+
+position: absolute;
+width: 65px;
+height: 64px;
+
+border-radius: 5px;
+}
+
+div#top-bar
+{
+/* Top heading */
+
+position: absolute;
+width: 1500px;
+height: 5%;
+background: #332929;
+}
+header#mainNav
+{
+max-width:100%;
+background-color:#000;
+}
