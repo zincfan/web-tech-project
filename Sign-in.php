@@ -16,19 +16,20 @@ $password= $_POST['password'];
 $sql = "INSERT INTO DB (username,password)
 VALUES ('$username','$password')";
 
-if (mysqli_query($conn, $sql)) 
+if (mysqli_query($conn, $sql))
 {
-    echo "Created successfully";
-    
-$sql="CREATE TABLE $username (curr_proj_link VARCHAR(1000),curr_proj VARCHAR(100), ratings VARCHAR(20),contributors varchar(1000))";
 
+
+$sql="CREATE TABLE $username (curr_proj VARCHAR(100) NOT NULL,ratings VARCHAR(20) NOT NULL,contributors VARCHAR(1000) NOT NULL,PRIMARY KEY (curr_proj,ratings,contributors))";
 mysqli_query($conn, $sql);
 
 $sql = "INSERT INTO user_data (username)
 VALUES ('$username')";
 mysqli_query($conn, $sql);
+    echo "Created successfully";
     
-} else {
+}
+ else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 
