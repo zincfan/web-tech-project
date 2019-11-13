@@ -30,9 +30,9 @@ if (mysqli_num_rows($result) > 0)
 
 while($row = mysqli_fetch_assoc($result))
 {
-$loc=$row['curr_proj'];
+$_SESSION['loc']=$row['curr_proj'];
 ?>
-<tr onclick="window.open('proj_rec/<?php echo $loc?>/',target='_blank')">
+<tr onclick="window.open('proj_rec.php',target='_blank')">
 <td><?php echo $row['curr_proj']; ?></td>
 <td><?php echo $row['ratings']; ?></td>
 <td><?php echo $row['contributors']; ?></td>
