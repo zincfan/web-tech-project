@@ -25,6 +25,7 @@ $username=$_SESSION['username'];
    
 
     <body>
+
         <header id="mainNav">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;">
              
@@ -71,10 +72,8 @@ $username=$_SESSION['username'];
         </div>
         <div id="user-repo">
 
-            <a id="current-project" href="http://127.0.0.1:5500/repository.html#">Current Projects</a>
-            <a id="rating" href="http://127.0.0.1:5500/repository.html#">Ratings</a>
-            <a id="followers" href="http://127.0.0.1:5500/repository.html#">Contributers</a>
-            <div class="rectangle" id="overview-of-repo" style="border-top: 1px"></div>
+            
+            <div class="rectangle" id="overview-of-repo" style="border-top: 1px"><iframe id="proj" src="proj_iframe.php"></iframe> </div>
         </div>
     <!-- Code injected by live-server -->
 <script type="text/javascript">

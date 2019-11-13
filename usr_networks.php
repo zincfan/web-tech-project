@@ -14,10 +14,23 @@ if (!$conn) {
 $username = $_POST['name'];
 $password = $_POST['password'];
 
-$sql = "UPDATE DB SET password='$password' WHERE username=$username";
+
+$sql = "UPDATE DB SET password='$password' WHERE username='$username'";
 
 if (mysqli_query($conn, $sql)) {
-    echo "Record updated successfully";
+    
+    //start
+    $target_dir = "prof_det/";
+    $target_file = $target_dir . basename($_FILES["prof_det"]["name"]);
+
+    if (move_uploaded_file($_FILES["prof_det"]["tmp_name"], $target_file)) {
+        $sql="UPDATE user_data SET resume='$target_file' WHERE username='$username'";
+        if (mysqli_query($conn, $sql)) {
+    	echo "Record updated successfully";
+    } 
+}
+
+    
 } else {
     echo "Error updating record: " . mysqli_error($conn);
 }

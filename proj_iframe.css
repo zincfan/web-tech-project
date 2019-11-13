@@ -1,0 +1,37 @@
+td
+{
+text-align: center;
+border: 1px solid black;
+
+}
+table
+{
+width:100%;
+border-collapse: collapse;
+
+}
+body
+{
+background-image:url("proj_iframe.jpeg");
+background-repeat: no-repeat;
+background-size:1900px 1000px;
+}
+th
+{
+background-color: blue;
+color: yellow;
+}
+
+table#head
+{
+position: fixed;
+height:30;
+top:-2;
+width:980;
+}
+
+tr#invisible
+{
+visibility: hidden;
+}
+

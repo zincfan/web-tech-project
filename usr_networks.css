@@ -3,6 +3,7 @@ body
 background-image:url("usr_networks.jpg");
 background-repeat: no-repeat;
 background-size:1900px 1000px;
+overflow-x: hidden !important;
 }
 
 p#update_profile_pic
@@ -31,8 +32,8 @@ div#p_data
 {
 color: yellow;
 position: relative;
-top:150;
-left:-500;
+top:-20;
+left:100;
 }
 
 h1#pd
@@ -44,7 +45,7 @@ input#submit_button
 {
 position:relative;
 left:250;
-top:-200;
+top:20;
 height: 30;
 width:100;
 color: green
@@ -55,5 +56,19 @@ div#part
 position:relative;
 left:500;
 top:-50;
+}
+
+input#submit_pic
+{
+position:relative;
+left:20;
+top:10;
+}
+
+img#img
+{
+height: 200;
+width: 200;
+border:5px solid grey;
 }
 

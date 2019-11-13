@@ -1,10 +1,8 @@
-<?php
+<?php 
 include "config.php";
 
-
-
-    $uname = mysqli_real_escape_string($con,$_POST['username']);
-    $password = mysqli_real_escape_string($con,$_POST['password']);
+    $uname = $_POST['username'];
+    $password =$_POST['password'];
 
     if ($uname != "" && $password != "")
     {
@@ -15,9 +13,11 @@ include "config.php";
 
         $count = $row['cntUser'];
 
-        if($count > 0){
-            $_SESSION['username'] = $username;
-             header('Location: repository.html');
+        if($count > 0)
+        {
+            $_SESSION['username'] = $uname;
+            $_SESSION['password']= $password;
+             header('Location: Repository-2.php');
         }
         else
         {
