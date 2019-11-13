@@ -41,7 +41,7 @@ $_SESSION['loc']=$row['curr_proj'];
 <?php
 }
 }
-
+$_SESSION['temp']=$_SESSION['loc'];
 ?>
 
 </table>
