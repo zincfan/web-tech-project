@@ -47,9 +47,9 @@ $username=$_SESSION['username'];
             </div>
         </nav></header>
         <nav class="navbar navbar-light bg-light">
-                <form class="form-inline">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <form class="form-inline" action="search.php" method="post">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name='key'>
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit"  >Search</button>
                 </form>
         </nav>
         <div class="jumbotron" style="padding: 1rem 1rem;">
