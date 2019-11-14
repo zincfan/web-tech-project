@@ -34,7 +34,7 @@ $i=0;
 </table>
 <button onclick='location.href="edit_proj.html"'>Upload Files</button>
 <?php
-if($loc==$_SESSION['temp'])
+if($loc==$_SESSION['temp'] && $_SESSION['guest']!=true)
 {
 echo
 '<h1>Enter invites!</h1>
@@ -43,6 +43,7 @@ echo
 <input type = "hidden" name = "proj_name" value = "<?php echo $loc ?>" />
 <input type="submit" value="INVITE!" />';
 }
+
 ?>
 </form>
 <script>

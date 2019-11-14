@@ -30,10 +30,10 @@ if (mysqli_num_rows($result) > 0)
 
 while($row = mysqli_fetch_assoc($result))
 {
-$_SESSION['loc']=$row['curr_proj'];
+
 ?>
-<tr onclick="window.open('proj_rec.php',target='_blank')">
-<td><?php echo $row['curr_proj']; ?></td>
+<tr >
+<td onclick=temp("<?php echo $row['curr_proj']; ?>")  ><?php echo $row['curr_proj']; ?></td>
 <td><?php echo $row['ratings']; ?></td>
 <td><?php echo $row['contributors']; ?></td>
 </tr>
@@ -41,11 +41,18 @@ $_SESSION['loc']=$row['curr_proj'];
 <?php
 }
 }
-$_SESSION['temp']=$_SESSION['loc'];
+
+
 ?>
 
 </table>
-
+<script>
+function temp(loc)
+{
+document.cookie="loc="+loc;
+window.open('processing.php',target='_blank')
+}
+</script>
 </body>
 </html>
 

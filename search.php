@@ -23,8 +23,8 @@ if (mysqli_num_rows($result) > 0)
 while($row = mysqli_fetch_assoc($result))
 {
 ?>
-<tr>
-<td style="text-align:center"> <?php echo $row['project_name']; ?> </td>
+<tr onclick="open_proj('<?php echo $row['project_name']; ?>')">
+<td style="text-align:center"><?php echo $row['project_name']; ?> </td>
 <td style="text-align:center"><?php echo $row['contributers']; ?> </td>
 </tr>
 <?php
@@ -32,6 +32,14 @@ while($row = mysqli_fetch_assoc($result))
  }
 ?>
 </table>
+<script>
+function open_proj(proj_name)
+{
+document.cookie="proj_name="+proj_name;
+location.href="transfer.php";
+}
+
+</script>
 </body>
 </html>
 
