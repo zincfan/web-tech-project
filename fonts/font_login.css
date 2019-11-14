@@ -1,0 +1,133 @@
+@import
+url(https://fonts.googleapis.com/css?family=Open+Sans);
+.btn
+{
+    font-size: 15px;
+    line-height: 20px;     /*18px originally*/
+    color: dodgerblue;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.5);
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding: 4px 10px 4px;
+    margin-bottom: 0;
+    line-height: 19px;  /*18px originally*/
+    vertical-align: middle;
+    background-color: cornsilk;
+    background-image: -moz-linear-gradient(top,#f0ee8c,#e5f3a8);  /*changes in color here*/
+    background-image: -ms-linear-gradient(top,#ffffff,#e8fc79);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#e8fc79));
+    background-image: -webkit-linear-gradient(top,#ffffff,#e8fc79);
+    background-image: -o-linear-gradient(top,#ffffff,#e8fc79);
+    background-image: linear-gradient(top,#ffffff,#e8fc79);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#e8fc79,GradientType=0);   /*drop-shadow(5px 5px 10px #e8e8e8);*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff,endColorstr=#e8fc79,GradientType=0)";
+    border-color: #f0ee8c #f0ee8c #f0ee8c;
+    border-color: rgba(0,1,2,0.1) rgba(0,1,2,0.1) rgba(0,1,2,0.2);
+    border: 1px solid #e8fc79;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,254,0.2) 0 1px 2px rgba(0,0,0,0.07); 
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,254,0.2) 0 1px 2px rgba(0,0,0,0.07);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,254,0.2) 0 1px 2px rgba(0,0,0,0.07);
+    cursor: pointer;
+    *margin-left:.3em;
+
+}
+
+.btn:hover, .btn:active, .btn.active, .btn.disabled, .btn[disabled] { background-color: #e8fc79; }
+.btn-lg
+{
+    padding: 9px 14px;
+    font-size: 16px;
+    line-height:normal;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.btn:hover
+{
+    color: #3a3939;
+    background-color: #e3f0a9;
+    background-position: 0 -14px;
+    transition: background-position 0.1s linear;
+    -moz-transition: background-position 0.1s linear;
+    -webkit-transition: background-position 0.1s linear;
+    -o-transition: background-position 0.1s linear;
+}
+
+.btn-primary,.btn-primary:hover
+{
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.27);
+    color:#ffffff;
+
+}
+
+.btn-primary.active
+{
+    color: rgba(192, 192, 22, 0.2);
+}
+
+.btn-primary
+{
+    background-color: #4975ce;
+    background-image: linear-gradient(top,#66abd1,#4876d1);
+    background-image: -o-linear-gradient(top,#66abd1,#4876d1);
+    background-image: -moz-linear-gradient(top,#66abd1,#4876d1);
+    background-image: -webkit-linear-gradient(top,#66abd1,#4876d1);
+    background-image: -ms-linear-gradient(top,#66abd1,#4876d1);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#66abd1),to(#4876d1));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66abd1,endColorstr=#4876d1,GradientType=0);
+    border: 1px solid #355fb8;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 0 rgba(255,255,254,0.2), 0 1px 2px rgba(2, 2, 2, 0.3);
+}
+
+.btn-primary:hover,.btn-primary:active,.btn-primary.active,.btn-primary.disabled,.btn-primary[disabled]
+{
+    background-color: #4470c7;
+}
+.btn-block
+{
+    width:50%;
+    display: block;
+}
+
+*
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+html { width:100%; height:100%; overflow:hidden;}
+
+body{
+    width:100%;
+    height: 100%;
+    font-family: 'Open Sans',sans-serif;
+    background:#072f6e;
+    background: radial-gradient(0% 100%,ellipse cover,rgba(98, 122, 133, 0.5) 11%,rgba(161, 133, 88, 0.2) 100%)
+}
+
+
+
+label[name="username"]{font-size: initial;
+    color:Tomato;
+    
+    font-weight: bold;}
+
+label[name="password"]{font-size: initial;
+        color:Tomato;
+        
+        font-weight: bold;}
+
+
+  
