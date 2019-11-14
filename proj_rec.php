@@ -33,6 +33,18 @@ $i=0;
 
 </table>
 <button onclick='location.href="edit_proj.html"'>Upload Files</button>
+<?php
+if($loc==$_SESSION['temp'])
+{
+echo
+'<h1>Enter invites!</h1>
+<form method="post" action="invite.php">
+<p>USERNAME<input type="text" name="username" />
+<input type = "hidden" name = "proj_name" value = "<?php echo $loc ?>" />
+<input type="submit" value="INVITE!" />';
+}
+?>
+</form>
 <script>
 function del(path)
 {

@@ -13,16 +13,16 @@ $result = mysqli_query($con, $sql);
 <table id="head">
 
 <tr>
-<th >Current Projects</th>
-<th >Ratings</th>
-<th >Contributors</th>
+<th style="text-align:center">Current Projects</th>
+<th style="text-align:center">Ratings</th>
+<th style="text-align:center">Owner</th>
 </tr>
 </table>
 <table>
 <tr id="invisible">
 <th id="c1">Current Projects</th>
 <th id="c2">Ratings</th>
-<th id="c3">Contributors</th>
+<th id="c3">Owner</th>
 </tr>
 <?php 
 if (mysqli_num_rows($result) > 0) 
