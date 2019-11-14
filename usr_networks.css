@@ -2,7 +2,7 @@ body
 {
 background-image:url("usr_networks.jpg");
 background-repeat: no-repeat;
-background-size:1900px 1000px;
+background-size:1900px 2000px;
 overflow-x: hidden !important;
 }
 
@@ -71,4 +71,11 @@ height: 200;
 width: 200;
 border:5px solid grey;
 }
+
+iframe#net
+{
+height: 1000;
+width: 1830;
+}
+
 

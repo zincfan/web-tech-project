@@ -26,8 +26,12 @@ mysqli_query($conn, $sql);
 $sql = "INSERT INTO user_data (username)
 VALUES ('$username')";
 mysqli_query($conn, $sql);
+$usr_net=$username.'_net';
+$sql="CREATE TABLE $usr_net (networks VARCHAR(50))";
+mysqli_query($conn, $sql);
     echo "Created successfully";
-    
+
+
 }
  else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);

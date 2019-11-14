@@ -80,15 +80,12 @@ if(isset($_POST['but_logout'])){
 <hr />
 <br />
 <h2><u>YOUR NETWORKS:</u></h2>
-<ul id="networks">
-
-
-</ul>
+<iframe id="net" src="networks_iframe.php"></iframe>
 
 <hr />
 </div>
 
-</script>
+
 
 </body>
 </html>  
