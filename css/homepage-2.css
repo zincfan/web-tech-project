@@ -4,7 +4,7 @@ body
 
 position: relative;
 width: 100%;
-height: 2177px;
+height: 2477px;
 
 background: #FFFFFF;
 font-family: 'Poppins', sans-serif;
@@ -189,8 +189,21 @@ position: absolute;
 height: 430px;
 left: 158px;
 top: 1352px;
-padding-left:7%;
+padding-left: 7%;
 background: transparent;
+}
+i.carding
+{
+    padding-left: 6.4rem; 
+    text-shadow: 2px 2px 2px rgb(80, 66, 228);
+}
+i.fas
+{
+    font-size: 3.9rem;
+    padding-bottom: 13px;
+    padding-top: 15px;
+    color: rgb(0, 105, 197);
+    text-shadow: 0.4px 0.4px 0.4px #ccc;
 }
 div.col-md-3.col-sm-6.single-counter-box
 {
@@ -207,12 +220,37 @@ img.icofont
     width:120;
     height:137;
 }
+
 div#carouselExampleCaptions
 {
     position: relative;
     left: 25%;
     top: 1632px;
     width: 70%;
+    padding: 8px;
+    background: chocolate;
+}
+footer.site-footer
+{
+    top: 1726px;
+    position: relative;
+    width: 100%;
+    background: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #6c757d;
+    padding-top: 44px;
+    border-color: blue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 /*
 .header {
