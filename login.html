@@ -31,6 +31,17 @@
                    return True;
                  }
                  }
+                 function showpa(eve)
+                 {
+                   if(eve.checked)
+                   {
+                     document.getElementById("loginpass").type="text;"
+                   }
+                   else
+                   {
+                    document.getElementById("loginpass").type="password";
+                   }
+                 }
                 
         </script>
 
@@ -49,7 +60,7 @@
                             <input type="password" class="password-confirm" id="loginpass" name="password" placeholder="Password" required="required"  pattern="(?=.*\W)(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,64}" title="Must contain 8 characters with atleast one special symbol,one number and one uppercase letter">
                         </div>
                         <div class="form-check" id="show-password-checkbox" style="top:60%;">
-                          <input class="form-check-input" type="checkbox" value="1" id="show-password">
+                          <input class="form-check-input" type="checkbox" value="1" id="show-password" onclick="showpa(this);">
                           <label class="form-check-label" for="show-password">
                             Show Password
                           </label>
