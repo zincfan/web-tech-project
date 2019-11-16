@@ -59,7 +59,9 @@ $username=$_SESSION['username'];
                 <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
                 <a class="btn btn-primary btn-lg" href="http://127.0.0.1:5500/repository.html#" role="button">Learn more</a>
         </div>
-          
+          <div id="addprojct" style="padding-left:4%;">
+            <input type="button" class="btn btn-primary" value="Add Project" style="padding-left: 10%; padding-right: 10%;" onclick="location.href='addProj.html'">
+            </div>
         <div name="left-profile">
             <i id="user-profile-image"></i>
             <span id="profile-name">USERNAME: <?php  echo "$username";?></span>
