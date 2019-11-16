@@ -1,0 +1,73 @@
+
+<!-- saved from url=(0043)file:///C:/Users/srisruvi/Desktop/form.html -->
+<html><body>
+            
+        <div class="container">
+            <form action="file:///C:/Users/srisruvi/Desktop/action_page.php">
+              <p><h1>Give us Feedback</h1></p>
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="type here">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="type here">
+
+              <label for="eid">Email Adress</label>
+              <input type="text" id="eid" name="emailadress" placeholder="enter valid emailadress eg:abc@gmail.com">
+
+              <label for="rate">How Will You Rate Us</label>
+              <select id="rate" name="Rate US">
+                <option value="0">SELECT--</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+              </select>
+          
+              <label for="feedback">Write Your Feedback</label>
+              <textarea id="feedback" name="feedback" placeholder="type here" style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+          <style>
+          /* Style inputs with type="text", select elements and textareas */
+            input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        border: 5px snow; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 16px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+        /* Style the submit button with a specific background color etc */
+        input[type=submit] {
+        background-color: green;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+     background-color: #09f314;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 51px;
+  background: linear-gradient(180deg, #EAA7F5 0%, rgba(229, 129, 247, 0.401) 59.9%, rgba(255, 255, 255, 0) 100%), linear-gradient(90deg, #DBCAEC 0%, rgba(194, 154, 234, 0) 100%), rgb(91, 4, 99);
+background-blend-mode: normal, normal, darken;
+  padding: 50px;
+  margin-left: 25%;
+  margin-right: 30%;
+}
+</style>
+    
+</body></html>
