@@ -1,19 +1,26 @@
 <html>
 <head>
 <link rel="stylesheet" href="addProj.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 <body>
-<h1><u>ADD YOUR PROJECT</h1>
+<h1 id="addproject">ADD YOUR PROJECT</h1>
 <br />
 <form method="post" action="addProj.php">
-<p>PROJECT NAME:<input type="text" name="proj_name" /></p>
-<h1>PRIVACY</h1>
+        <div class="form-group" id="createproject">
+          <label for="exampleInputEmail1">Project Name</label>
+          <input type="text" class="form-control" id="exampleInputProject1" aria-describedby="ProjectHelp" placeholder="Enter Project Name">
+          <small id="ProjectHelp" class="form-text text-muted">Create a New Project.</small>
+        </div>
+<h1 id="privacy">PRIVACY</h1>
 <hr />
-<input type='radio' name='privacy' value='public' />public<br />
-<input type='radio' name='privacy' value='private' />private<br />
+<div id="radio-area">
+<input type='radio' name='privacy' value='public' >public<br />
+<input type='radio' name='privacy' value='private' >private<br />
+</div>
 <hr />
-<input type='submit' value='SUBMIT' />
+<input type='submit' class="btn btn-primary" value='SUBMIT' id="submit-pro"/>
 </form>
 </body>
 </html>

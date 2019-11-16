@@ -4,4 +4,36 @@ background-image :url('addProj.png');
 background-repeat: no-repeat;
 background-size:1900px 1000px;
 }
+h1#addproject{
+    text-align: center;
+    font: small-caps bold 24px/1 sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    padding-top: 20px;
+    color: #287777;
+    text-decoration: none;
+}
+div#createproject
+{
+    padding-left: 12%;
+    padding-right: 16%;
+}
+h1#privacy
+{
+    font-size: x-large;
+    font-family: monospace;
+    padding-right: 67%;
+    text-align: center;
+    color:brown;
+}
+div#radio-area
+{
+    position: relative;
+    left: 14%;
+}
+input#submit-pro
+{
+    position: relative;
+    left: 13%;
+}
 
