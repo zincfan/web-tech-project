@@ -86,7 +86,7 @@ $image=$row['image'];
         
         
         ?>
-            <i id="user-profile-image"style="position:relative; top:105px;left:68;"><img src="<?php echo $image ?>" id="img"/></i>
+            <i id="user-profile-image"style="position:relative; top:105px;left:68;"><img src="<?php echo $image ?>" id="img" style="width:269px; height:215px;"/></i>
             <span id="profile-name">USERNAME: <?php  echo "$username";?></span>
             <span id="programmer-student" style="position:relative; top:214px; left:116px;">Programmer/Student</span>
 
