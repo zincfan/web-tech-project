@@ -63,14 +63,34 @@ $username=$_SESSION['username'];
             <input type="button" class="btn btn-primary" value="Add Project" style="padding-left: 10%; padding-right: 10%;" onclick="location.href='addProj.html'">
             </div>
         <div name="left-profile">
-            <i id="user-profile-image"></i>
+        <?php 
+        include "config.php";
+
+// Check user login or not
+$name=$_SESSION['username'];
+$password=$_SESSION['password'];
+
+$sql="SELECT image FROM user_data where username='$name'";
+$result = mysqli_query($con, $sql);
+        $image='default_profile_image_male.jpg';
+
+if (mysqli_num_rows($result) > 0)
+{
+$row = mysqli_fetch_assoc($result);
+if($row['image'])
+{
+$image=$row['image'];
+}
+
+}
+        
+        
+        ?>
+            <i id="user-profile-image"style="position:relative; top:105px;left:68;"><img src="<?php echo $image ?>" id="img"/></i>
             <span id="profile-name">USERNAME: <?php  echo "$username";?></span>
-            <span id="programmer-student">Programmer/student/en</span>
-            <span id="location">Location</span>
-            <i id="placeholder-for-map"></i>
-            <span id="email">Email</span>
-            <i id="email"></i>
-            <a id="report-user" href="http://127.0.0.1:5500/repository.html#">Report User</a>
+            <span id="programmer-student" style="position:relative; top:214px; left:116px;">Programmer/Student</span>
+
+            <a id="report-user" href="mailto:admin@gmail.com">Report!</a>
         </div>
         <div id="user-repo">
 
