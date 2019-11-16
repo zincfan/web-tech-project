@@ -1,8 +1,14 @@
 <html>
-<body>
+    <head><title>Upload files</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+
+<body style="font-family: monospace; font-size: x-large; background:#fff9f4">
+<h2 style="text-align:center;">Add Files</h2>
 <form action="edit_proj.php" method="post" enctype="multipart/form-data">
-<input type="file" name="file[]" multiple />
-<p><input type="submit" name="submit" value="APPLY CHANGES" /></p>
+<input type="file" name="file[]" multiple style="padding-left: 10%;
+padding-top: 6%;"/>
+<p style="padding-left:10%; padding-top:3%;"><input type="submit" name="submit" value="APPLY CHANGES" class="btn btn-primary" /></p>
 </form>
 </body>
 </html> 
