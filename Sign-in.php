@@ -20,7 +20,7 @@ if (mysqli_query($conn, $sql))
 {
 
 
-$sql="CREATE TABLE $username (curr_proj VARCHAR(100) NOT NULL,ratings VARCHAR(20) NOT NULL,contributors VARCHAR(1000) NOT NULL,PRIMARY KEY (curr_proj,ratings,contributors))";
+$sql="CREATE TABLE $username (curr_proj VARCHAR(100),ratings VARCHAR(20),contributors)";
 mysqli_query($conn, $sql);
 
 $sql = "INSERT INTO user_data (username)
