@@ -29,16 +29,16 @@ $username=$_SESSION['username'];
         <header id="mainNav">
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;">
              
-            <a class="navbar-brand" href="http://127.0.0.1:5500/repository.html#"><img id="bubbles-homepage" src="./Repository-2_files/bubbles-homepage-icon.png">REPO</a>
+            <a class="navbar-brand" href="index.html"><img id="bubbles-homepage" src="./Repository-2_files/bubbles-homepage-icon.png">REPO</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav mr-auto">
                       
-                      <a class="nav-item nav-link" href="http://127.0.0.1:5500/repository.html#">What is that?</a>
-                      <a class="nav-item nav-link" href="http://127.0.0.1:5500/repository.html#">Features</a>
-                      <a class="nav-item nav-link" href="networks.php">NETWORKS</a>
+                      <a class="nav-item nav-link" href="index.html">Home</a>
+                      <a class="nav-item nav-link" href="about-us2.html">Features</a>
+                      <a class="nav-item nav-link" href="networks.php">Network</a>
                       
                     </div>
             <!--<a id="bar-what-is-this" href="#">What is this?</a>
