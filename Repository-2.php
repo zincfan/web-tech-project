@@ -57,7 +57,7 @@ $username=$_SESSION['username'];
                 <p class="lead">Repo is a place to explore. It is a place to try, to make mistakes, to be appreciated. Repo offers star rating which is given by others who see your project. Climb up the star ratings for higher benefits. The benefits include being moderator in the community, to earn badges and many more</p>
                 <hr class="my-4">
                 <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="http://127.0.0.1:5500/repository.html#" role="button">Learn more</a>
+                <a class="btn btn-primary btn-lg" href="about-us2.html" role="button">Learn more</a>
         </div>
           <div id="addprojct" style="padding-left:4%;">
             <input type="button" class="btn btn-primary" value="Add Project" style="padding-left: 10%; padding-right: 10%;" onclick="location.href='addProj.html'">

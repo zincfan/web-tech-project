@@ -37,20 +37,6 @@
                    return True;
                  }
                  }
-                function showpa(eve)
-                {
-                    if(eve.checked)
-                    { 
-                      document.getElementById("loginpass").type="text";
-                      
-                    }
-                    else
-                    { 
-                        document.getElementById("loginpass").type="password";
-                        
-                    }
-
-                }
                 
         </script>
 
@@ -59,7 +45,7 @@
             <div id="rect">
                 
                     <div name="logtext">
-                        <p id="login-text">Login</p>
+                        <p id="login-text">SignUp</p>
                     </div>
                     <form name="login" id="login" onsubmit="funcpass()" method="post" action="Sign-in.php">
                         <div id="username_field">
@@ -72,7 +58,7 @@
                             <input type="password" class="password-confirm" id="loginpassconfirm" name="confirm-password" placeholder="Confirm Password" required="required" style="top:59.73%;" title="Re-enter the same password as given above">
                         </div>
                         <div class="form-check" id="show-password-checkbox">
-                            <input class="form-check-input" type="checkbox" value="1" id="show-password" onclick="showpa(eve);">
+                            <input class="form-check-input" type="checkbox" value="1" id="show-password">
                             <label class="form-check-label" for="show-password">
                               Show Password
                             </label>
