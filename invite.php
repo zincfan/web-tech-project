@@ -9,7 +9,7 @@ mysqli_query($con, $sql);
 
 $owner=$_SESSION['username'];
 
-$sql="INSERT INTO $username (curr_proj,ratings,contributors) VALUES ('$target_folder','-','$owner')";
+$sql="INSERT INTO $username (curr_proj,ratings,owners) VALUES ('$target_folder','-','$owner')";
 mysqli_query($con, $sql);
 
 $owner_net=$owner.'_net';

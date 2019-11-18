@@ -1,0 +1,1 @@
+Redirect http://localhost/css/Homepage-logo.png http://localhost/images/Homepage-logo.png

@@ -1,7 +1,7 @@
 <?php 
 include "config.php";
 $username=$_SESSION['username'];
-$sql = "SELECT curr_proj,ratings,contributors FROM $username";
+$sql = "SELECT curr_proj,ratings,owners FROM $username";
 $result = mysqli_query($con, $sql);
 ?>
 
@@ -35,7 +35,7 @@ while($row = mysqli_fetch_assoc($result))
 <tr >
 <td onclick=temp("<?php echo $row['curr_proj']; ?>")  ><?php echo $row['curr_proj']; ?></td>
 <td><?php echo $row['ratings']; ?></td>
-<td><?php echo $row['contributors']; ?></td>
+<td><?php echo $row['owners']; ?></td>
 </tr>
 
 <?php

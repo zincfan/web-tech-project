@@ -20,7 +20,7 @@ if($option=="public")
 mysqli_query($con, $sql);
 }
 
-$sql="INSERT INTO $username (curr_proj,ratings,contributors) VALUES ('$target_folder','-','$username')";
+$sql="INSERT INTO $username (curr_proj,ratings,owners) VALUES ('$target_folder','-','$username')";
 mysqli_query($con, $sql);
 echo "Created Successfully";
 ?>

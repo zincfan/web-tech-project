@@ -1,7 +1,7 @@
   <?php
 $servername = "localhost";
 $username = "root";
-$password = "qwerty";
+$password = "";
 $dbname = "DB";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -20,7 +20,7 @@ if (mysqli_query($conn, $sql))
 {
 
 
-$sql="CREATE TABLE $username (curr_proj VARCHAR(100),ratings VARCHAR(20),contributors)";
+$sql="CREATE TABLE $username (curr_proj VARCHAR(100),ratings VARCHAR(20),owners VARCHAR(100))";
 mysqli_query($conn, $sql);
 
 $sql = "INSERT INTO user_data (username)
