@@ -9,3 +9,4 @@ Recruiters can send invitation for conversation with someone if they want to hir
 ""Suggestions for adding features are welcomed. These are not only features to be added. We will see about these as progress is made.""
 
 As of 26 Oct 2019 , no webpages are fully fledged. Just prototypes. 
+As of 20-11-2019, website is hosted on repoz.000webhostapp.com
